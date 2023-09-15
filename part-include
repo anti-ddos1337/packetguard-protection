@@ -1,0 +1,3 @@
+part /boot --fstype ext4 --size=512 --asprimary --ondisk=sda
+part swap --size=2048 --asprimary --ondisk=sda
+part / --fstype xfs --size=1 --grow --asprimary --ondisk=sda
